@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Task 1</title>
+
+</head>
+
+<body>
+<link rel="stylesheet" href="codingStyle.css">
+<div style="margin: 0px;
+      padding: 0px;
+      min-width: 600px;">
+
+  <h1 class="leaderboard">Leaderboard</h1>
+
+  <div class="top">
+
+      
+
+      <div class="Jeremy">
+          <div class="small">   2   </div>
+
+          <div class="small_circles">
+              <svg height="160" width="190">
+                  <circle cx="76" cy="80" r="75" stroke="white" stroke-width="3" fill="#BABEEF" />
+              </svg> 
+          </div>
+          
+          <div class="small_style">
+              Jeremy &#183; 672
+          </div>
+          
+      </div>
+
+      <div class="Amanda">
+          <div  class="big_style">   1   </div>
+
+          <div class="big_circle">
+              <svg height="290" width="280">
+                  <circle cx="140" cy="107" r="105" stroke="white" stroke-width="3" fill="#BABEEF" />
+              </svg> 
+          
+          </div>
+
+          <div class="big" style="">
+              Amanda &#183; 764
+          </div>
+          
+          
+      </div>
+
+      <div class="Jeffery">
+          <div class="small">   3   </div>
+
+          <div class="small_circles">
+              <svg height="160" width="190">
+                  <circle cx="76" cy="80" r="75" stroke="white" stroke-width="3" fill="#BABEEF" />
+              </svg> 
+          </div>
+          
+      <div class="small_style">
+              Jeffery &#183; 542
+      </div>
+      
+      </div>
+
+  </div>
+</div>
+
+
+
+<div class="lists" style="margin-top: 10px; padding-top: 4px;">
+  <div class="left" >
+
+      <div class= "serialorder" style="display: inline-block"> 4</div>
+
+      <div style="display: inline-block;">
+          <svg height="64" width="64">
+              <circle cx="31" cy="38" r="25" stroke="white" stroke-width="2" fill="#BABEFF" />
+          </svg> 
+      </div>
+
+      <div class="name">Joe</div>
+
+  </div>
+      
+
+  <div class="score">445</div>
+
+</div>
+
+<div class="lists">
+  <div class="left">
+
+      <div class= "serialorder" style="display: inline-block"> 5</div>
+
+      <div style="display: inline-block;">
+          <svg height="64" width="64">
+              <circle cx="31" cy="38" r="25" stroke="white" stroke-width="2" fill="#BABEFF" />
+          </svg> 
+      </div>
+
+      <div class="name">Jenny</div>
+
+  </div>
+      
+
+  <div class="score">438</div>
+</div>
+
+
+
+
+</div>
+
+<div class="lists">
+  <div class="left">
+
+      <div class= "serialorder" style="display: inline-block"> 6</div>
+
+      <div style="display: inline-block;">
+          <svg height="64" width="64">
+              <circle cx="31" cy="38" r="25" stroke="white" stroke-width="2" fill="#BABEFF" />
+          </svg> 
+      </div>
+
+      <div class="name">Josh</div>
+
+  </div>
+      
+
+  <div class="score">432</div>
+</div>
+
+<div class="lists">
+  <div class="left">
+
+      <div class= "serialorder" style="display: inline-block"> 7</div>
+
+      <div style="display: inline-block;">
+          <svg height="64" width="64">
+              <circle cx="31" cy="38" r="25" stroke="white" stroke-width="2" fill="#BABEFF" />
+          </svg> 
+      </div>
+
+      <div class="name">Stella</div>
+
+  </div>
+      
+
+  <div class="score">321</div>
+</div>
+
+<div class="lists">
+  <div class="left">
+
+      <div class= "serialorder" style="display: inline-block"> 8</div>
+
+      <div style="display: inline-block;">
+          <svg height="64" width="64">
+              <circle cx="31" cy="38" r="25" stroke="white" stroke-width="2" fill="#BABEFF" />
+          </svg> 
+      </div>
+
+      <div class="name">Sally</div>
+
+  </div>
+      
+
+  <div class="score">300</div>
+</div>
+
+
+<script>
+    fetch('https://www.coursehubiitg.in/api/codingweek/contributions').
+    then(res => res.json())
+    .then(data => {
+        console.log(data);
+    })
+</script>
+</body>
+</html>

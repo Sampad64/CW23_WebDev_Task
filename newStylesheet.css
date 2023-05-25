@@ -1,0 +1,151 @@
+.leaderboard{
+    background-color: #656CEC;
+    color: white;
+    margin-top: 0px;
+    height: 80px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    
+    margin-bottom: 2px;
+    
+
+}
+
+.top{
+    color: white;
+    background-color: #656CEC;
+    height: 500pxpx;
+    border-bottom-right-radius: 50px ;
+    border-bottom-left-radius: 50px ;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    
+    
+}
+
+.big_circle{
+    margin-top: 0px;
+    height: 215px;
+     
+    border-radius: 50%;
+}
+
+
+.small_circles{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    height: 140px;
+    width: 140px;
+}
+
+.small{
+    background-color: #BABEEF;
+    display: inline-block;
+    border-radius: 20px;
+    width: 23px;
+    margin-top: 47px;
+    margin-bottom: 2px;
+    
+}
+
+.name1{
+    background-color: #BABEEF;
+    display: inline-block;
+    border-radius: 20px;
+    width: 150px;
+    text-align:center;
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+
+.name2, .name3{
+    margin-top: 0px;
+    background-color: #BABEEF;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    width: 170px;
+       
+
+}
+
+.big_style{
+    background-color: #BABEEF;
+    display: inline-block;
+    border-radius: 20px;
+    width: 23px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    
+
+}
+.Jeremy,.Jeffery{
+    padding-top: 40px;
+    
+}
+
+
+
+.lists{
+    margin-top: 6px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #D2D4F2;
+    min-width: 600px;
+
+}
+
+.serialorder{
+    display: inline-block;
+    padding: 20px;
+    padding-right: 50px;
+    padding-left: 37px;
+    font-size: 30px;
+
+    
+}
+
+.left{
+    display: flex;
+    align-content: center;
+}
+
+.name8, .name7, .name6, .name5, .name4{
+    display: inline-block;
+    padding: 20px;
+    padding-left: 50px;
+    font-size: 30px;
+    height: 30;
+}
+
+.rank1{
+
+  border-radius: 50%;
+  border-width: 1px;
+}
+
+.rank4, .rank5, .rank6, .rank7, .rank8{
+  height: 60;
+  margin-top: 4px;
+  border-radius: 50%;
+  border: 2px solid #656CEC;
+} 
+
+.score, .score4, .score5, .score6, .score7, .score8{
+    padding: 20px;
+    padding-right: 200px;
+    font-size: 30px;
+}
